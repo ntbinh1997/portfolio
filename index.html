@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link />
+</head>
+<body>
+    <header>
+        <nav id="nav-destop">
+            <div class="header-name">
+                Nguyen Thanh Binh
+            </div>
+            <div>
+                <ul class="nav-link">
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="nav-mobi">
+            <div class="header-name">
+                Nguyen Thanh Binh
+            </div>
+            <div class="menu-mobi">
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div>
+                    <ul class="menu-link">
+                        <li><a onclick="toggleMenu()" href="#About">About</a></li>
+                        <li><a onclick="toggleMenu()" href="#Skills">Skills</a></li>
+                        <li><a onclick="toggleMenu()" href="#Project">Project</a></li>
+                        <li><a onclick="toggleMenu()" href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="profile">
+        <div class="section-pic-contrainer">
+            <img src="./assets/profile-pic.png" alt="Thanh Binh piture">
+        </div>
+        <div class="section-text">
+            <p class="section-text-l1">Hello, I'm</p>
+            <h1 class="section-text-l2">Nguyen Thanh Binh</h1>
+            <p class="section-text-l3">Frontend Developer</p>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

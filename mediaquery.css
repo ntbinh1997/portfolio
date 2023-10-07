@@ -1,0 +1,9 @@
+@media screen and (max-width: 1100px) {
+    #nav-destop {
+        display: none;
+    }
+
+    #nav-mobi {
+        display: flex;
+    }
+}
